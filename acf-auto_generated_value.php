@@ -2,8 +2,8 @@
 
 /*
 Plugin Name: Advanced Custom Fields: Auto-generated value
-Plugin URI: https://github.com/andersthorborg/
-Description: Creates a hidden/readonly field in a repeater that gets a unique key, that won't change once it is saved. Ideal for user-generated forms. Includes option to hide the field from the user.
+Plugin URI: https://github.com/ryanbeymer/ACF-auto-generated-value
+Description: Forked from (https://github.com/andersthorborg/ACF-auto-generated-value) Creates a hidden/readonly field in a repeater that gets a unique key, that won't change once it is saved. Ideal for user-generated forms. Includes option to hide the field from the user.
 Version: 1.0.0
 Author: Kindly
 Author URI: http://kindly.dk

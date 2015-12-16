@@ -20,15 +20,11 @@
 					values.push($(this).val());
 				}
 			});
-			// Start from zero
-			var count = 0;
-			var value = $input.data('prefix') + count;
+			// Hash
+			var hash = 'xxxxxxxxxx'.replace(/x/g,function(c){var chars="abcdefghijklmnopqrtsuvwxyz0123456789".split(''); return chars[Math.floor(chars.length * Math.random())]});
+			var value = $input.data('prefix') + hash;
 			// Generate new values until we get one that doesn't exist
 			console.log(values);
-			while(values.indexOf(value) > -1){
-				count++;
-				value = $input.data('prefix') + count;
-			}
 			$input.val(value);
 		}
 
