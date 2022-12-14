@@ -4,7 +4,7 @@
 	function initialize_field( $el ) {
 		var $input = $el.find('.auto-generated-value-input');
 
-		if($input.data('hide') === 'yes' && $el.is('tr')){
+		if($input.data('hide') === 'yes' && ($el.is('tr') || $el.is('div'))){
 			$el.hide();
 		}
 
